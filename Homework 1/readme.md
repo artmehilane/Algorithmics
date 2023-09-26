@@ -1,3 +1,6 @@
+
+*Art Mehilane & Raido Priske*
+
 # Task 1: Sorting Algorithm for Books by Height
 To create an algorithm for sorting books on a shelf by height, you can follow these steps:
 
