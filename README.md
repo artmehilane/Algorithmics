@@ -1,5 +1,5 @@
 # Algorithmics
-## Repository for 2023 Algorithmics &amp; Data Structures course
+Repository for 2023 Algorithmics &amp; Data Structures course
 
 #### Art Mehilane & Raido Priske
 
