@@ -1,3 +1,6 @@
+Raamatute järjestamise algoritm
+
+
 1. Võta ette riiul, kus on raamatud, mille kõrgused on erinevad
 
 2. Mõõda iga raamatu kõrgus ja pane see kirja
@@ -15,3 +18,7 @@ Kui jõuad riiuli lõppu ja kõik raamatud ei ole sorteeritud, siis mine tagasi 
 
 Kui jõuad riiuli lõppu ja kõik raamatud on sorteeritud, lõpeta. 
 
+
+Autorid:
+Art Mehilane
+Raido Priske
