@@ -1,4 +1,16 @@
 *Art Mehilane & Raido Priske*
+# Task 2: FIFO andmestruktuur
 
-# Task 2: LIFO/FIFO Data Structure
-Choose either a LIFO (Last-In-First-Out) or FIFO (First-In-First-Out) data structure and implement it in your preferred programming language without using any built-in libraries. Document your code and analyze and measure the time complexity of insertion and deletion operations, explaining your reasoning.
+Antud koodis on 3 funktsiooni. 
+
+Esimene funktsioon “addData”, võtab vastu muutuja ja lisab selle muutuja massiivi. 
+
+Teine funktsioon “removeData” eemaldab esimese massiivi andme.
+
+Kolmas funktsioon “measureTime” mõõdab kui kaua aega kulub funktsiooni läbi viimiseks n kordi.
+
+Ajaline keerukus on O(1), sest sisestamise ega eemaldamise funktsiooni keerukus ei muutu funktsioonile antud andmete koguse tõttu.
+
+Autorid:
+Art Mehilane
+Raido Priske
