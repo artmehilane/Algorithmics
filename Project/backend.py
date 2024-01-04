@@ -3,12 +3,13 @@ import eel
 
 @eel.expose
 def passContacts():
-    return contacts
+    return load_contacts()
 
 
 @eel.expose
-def searchContact():
-    print('ran')
+def searchContact(query):
+    return search_contacts(query)
+
 
 
 eel.init('frontend')
@@ -43,11 +44,12 @@ def sort_contacts(contacts,sort_key = 'name'):
 @eel.expose
 def add_contact(name, phone, email, address):
     contacts = load_contacts()
-    contacts.append({"name": name, "phone": phone,  "email": email, "address": address})
-    save_contacts(contacts)
+    if not any(contact['phone'] == phone for contact in contacts):
+        contacts.append({"name": name, "phone": phone,  "email": email, "address": address})
+        save_contacts(contacts)
 
-
-eel.init('frontend')
+    else:
+        print("Contact already exists.")
 
 if __name__ == "__main__":
     eel.start('main.html')
