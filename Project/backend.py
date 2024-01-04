@@ -1,4 +1,20 @@
 import json
+import eel
+
+@eel.expose
+def passContacts():
+    return contacts
+
+
+@eel.expose
+def searchContact():
+    print('ran')
+
+
+eel.init('frontend')
+eel.start('main.html')
+
+
 
 contacts_file = 'contacts.json'
 
