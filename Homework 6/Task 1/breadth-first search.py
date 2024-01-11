@@ -23,7 +23,3 @@ graph = {
 print(bfs(graph, 'A'))
 
 # Output will be the order in which the nodes are visited.
-
-#Used materials on BFS from datagy.io to learn from and get help to complete this task
-
-#A.Mehilane and R.Priske
